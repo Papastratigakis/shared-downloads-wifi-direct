@@ -307,6 +307,7 @@ public class MainActivity extends ActionBarActivity {
     }
     /*
         Forces the usage of mobile data while wifi is active
+        Credits to: http://stackoverflow.com/a/4756630
      */
     private boolean forceMobileConnectionForAddress(Context context, String address) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
